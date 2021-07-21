@@ -1,0 +1,1553 @@
+{
+    "bytes-file": 102611323,
+    "bytes-processed": 372916757,
+    "bytes-scanned": 184995164,
+    "docker-images": {},
+    "errors": [],
+    "external-archiver-failures": [],
+    "filetypes": {
+        "ASCII text": 24,
+        "Extensible storage engine DataBase": 4,
+        "JSON data": 6,
+        "MS Windows registry file": 24,
+        "PE32 executable (DLL) (GUI) Intel 80386": 58,
+        "PE32+ executable (DLL) (GUI) x86-64": 30,
+        "PE32+ executable (DLL) (console) x86-64": 314,
+        "PE32+ executable (DLL) (native) x86-64": 24,
+        "PE32+ executable (DLL) x86-64": 4,
+        "PE32+ executable (GUI) x86-64": 8,
+        "PE32+ executable (console) x86-64": 20,
+        "PE32+ executable (native) x86-64": 116,
+        "POSIX tar archive": 1,
+        "TIM image": 2,
+        "TrueType Font data": 2,
+        "Windows setup INFormation": 230,
+        "XML 1.0 document": 4,
+        "data": 950,
+        "gzip compressed data": 1
+    },
+    "infoleak": {},
+    "libs": [
+        {
+            "extended-objects": [
+                {
+                    "bd-id": "protecode_sc:curl",
+                    "binary-type": "pe32-executable-x86-64",
+                    "confidence": 0.512937595129376,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/curl.exe",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/curl.exe"
+                    ],
+                    "matching-method": "signature",
+                    "name": "curl.exe",
+                    "sha1": "b073b1b84a589b7fefd380ae9e097c3040e4dd07",
+                    "size": 421376,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:curl",
+                    "binary-type": "pe32-executable-x86-64",
+                    "confidence": 0.512937595129376,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/curl.exe",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/curl.exe"
+                    ],
+                    "matching-method": "signature",
+                    "name": "curl.exe",
+                    "sha1": "b073b1b84a589b7fefd380ae9e097c3040e4dd07",
+                    "size": 421376,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                }
+            ],
+            "lib": "curl",
+            "objects": [
+                "curl.exe",
+                "curl.exe"
+            ],
+            "version": "7.55.1"
+        },
+        {
+            "extended-objects": [
+                {
+                    "bd-id": "protecode_sc:libarchive",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.7594405594405594,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/archiveint.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/archiveint.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "archiveint.dll",
+                    "sha1": "24368926b4a39abb92c7dd1db08f9986429db932",
+                    "size": 621568,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:libarchive",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.7594405594405594,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/archiveint.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/archiveint.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "archiveint.dll",
+                    "sha1": "24368926b4a39abb92c7dd1db08f9986429db932",
+                    "size": 621568,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                }
+            ],
+            "lib": "libarchive",
+            "objects": [
+                "archiveint.dll",
+                "archiveint.dll"
+            ],
+            "version": "3.3.2"
+        },
+        {
+            "extended-objects": [
+                {
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.5675675675675675,
+                    "exe-flags": [
+                        "no-buffer-security-check",
+                        "no-control-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/downlevel/api-ms-win-crt-private-l1-1-0.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/downlevel/api-ms-win-crt-private-l1-1-0.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "api-ms-win-crt-private-l1-1-0.dll",
+                    "sha1": "8cff6776aef834779ed55591e21ee582ba87ce88",
+                    "size": 64528,
+                    "source-match": "vcruntime",
+                    "timestamp": 1565184703,
+                    "type": "native"
+                },
+                {
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.7702702702702703,
+                    "exe-flags": [
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/downlevel/ucrtbase.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/downlevel/ucrtbase.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "ucrtbase.dll",
+                    "sha1": "6e3d4fdcd0ba5aa278a331b679222a59312087b8",
+                    "size": 1020776,
+                    "source-match": "vcruntime",
+                    "timestamp": 1565184703,
+                    "type": "native"
+                },
+                {
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.5675675675675675,
+                    "exe-flags": [
+                        "no-buffer-security-check",
+                        "no-control-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/downlevel/api-ms-win-crt-private-l1-1-0.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/downlevel/api-ms-win-crt-private-l1-1-0.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "api-ms-win-crt-private-l1-1-0.dll",
+                    "sha1": "8cff6776aef834779ed55591e21ee582ba87ce88",
+                    "size": 64528,
+                    "source-match": "vcruntime",
+                    "timestamp": 1565184703,
+                    "type": "native"
+                },
+                {
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.7702702702702703,
+                    "exe-flags": [
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/downlevel/ucrtbase.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/downlevel/ucrtbase.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "ucrtbase.dll",
+                    "sha1": "6e3d4fdcd0ba5aa278a331b679222a59312087b8",
+                    "size": 1020776,
+                    "source-match": "vcruntime",
+                    "timestamp": 1565184703,
+                    "type": "native"
+                }
+            ],
+            "lib": "visual_studio_runtime",
+            "objects": [
+                "api-ms-win-crt-private-l1-1-0.dll",
+                "ucrtbase.dll",
+                "api-ms-win-crt-private-l1-1-0.dll",
+                "ucrtbase.dll"
+            ],
+            "version": null
+        },
+        {
+            "extended-objects": [
+                {
+                    "bd-id": "protecode_sc:zlib",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.9,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/archiveint.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/archiveint.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "archiveint.dll",
+                    "sha1": "24368926b4a39abb92c7dd1db08f9986429db932",
+                    "size": 621568,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:zlib",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.4,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/dbgeng.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/dbgeng.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "dbgeng.dll",
+                    "sha1": "76fbec170cdf2d6a697f7ece69738dcb1497081f",
+                    "size": 6436864,
+                    "timestamp": 1565184701,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:zlib",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.85,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "layer467801244",
+                            "type": "tar"
+                        },
+                        {
+                            "path": "Files/Windows/System32/diagtrack.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "layer467801244",
+                        "Files/Windows/System32/diagtrack.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "diagtrack.dll",
+                    "sha1": "5c4e92410159526a9d45813242e422e3375aa47b",
+                    "size": 3771392,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:zlib",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.9,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/archiveint.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/archiveint.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "archiveint.dll",
+                    "sha1": "24368926b4a39abb92c7dd1db08f9986429db932",
+                    "size": 621568,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:zlib",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.4,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/dbgeng.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/dbgeng.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "dbgeng.dll",
+                    "sha1": "76fbec170cdf2d6a697f7ece69738dcb1497081f",
+                    "size": 6436864,
+                    "timestamp": 1565184701,
+                    "type": "native"
+                },
+                {
+                    "bd-id": "protecode_sc:zlib",
+                    "binary-type": "pe32-shared-x86-64",
+                    "confidence": 0.85,
+                    "exe-flags": [
+                        "no-authenticode-signature",
+                        "no-return-flow-guard",
+                        "no-enforced-code-integrity"
+                    ],
+                    "extended-fullpath": [
+                        {
+                            "path": "layer467801244",
+                            "type": "gzip"
+                        },
+                        {
+                            "path": "Files/Windows/System32/diagtrack.dll",
+                            "type": "pe"
+                        }
+                    ],
+                    "fullpath": [
+                        "layer467801244",
+                        "Files/Windows/System32/diagtrack.dll"
+                    ],
+                    "matching-method": "signature",
+                    "name": "diagtrack.dll",
+                    "sha1": "5c4e92410159526a9d45813242e422e3375aa47b",
+                    "size": 3771392,
+                    "timestamp": 1565184699,
+                    "type": "native"
+                }
+            ],
+            "lib": "zlib",
+            "objects": [
+                "archiveint.dll",
+                "dbgeng.dll",
+                "diagtrack.dll",
+                "archiveint.dll",
+                "dbgeng.dll",
+                "diagtrack.dll"
+            ],
+            "version": null
+        }
+    ],
+    "metadata": {
+        "depth": 5,
+        "name": "Microsoft® Windows® Operating System",
+        "platform": "Windows",
+        "vendor": "Microsoft Corporation",
+        "version": "10.0.18362.295"
+    },
+    "metadatas": [
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.1013"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "The curl executable",
+            "platform": "Windows",
+            "vendor": "curl, https://curl.haxx.se/",
+            "version": "7.55.1"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft Kernel Debugger Network Adapter (NDIS 6.20 Miniport)",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "6.01.00.0000"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 7,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.1013"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 5,
+            "name": "The curl executable",
+            "platform": "Windows",
+            "vendor": "curl, https://curl.haxx.se/",
+            "version": "7.55.1"
+        },
+        {
+            "depth": 5,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft Kernel Debugger Network Adapter (NDIS 6.20 Miniport)",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "6.01.00.0000"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        },
+        {
+            "depth": 6,
+            "name": "Microsoft® Windows® Operating System",
+            "platform": "Windows",
+            "vendor": "Microsoft Corporation",
+            "version": "10.0.18362.295"
+        }
+    ],
+    "mimetypes": {
+        "application/gzip": 1,
+        "application/json": 6,
+        "application/octet-stream": 976,
+        "application/x-dosexec": 574,
+        "application/x-ms-ese": 4,
+        "application/x-setupscript": 230,
+        "application/x-tar": 1,
+        "font/sfnt": 2,
+        "text/plain": 24,
+        "text/xml": 4
+    },
+    "scan-duration": 21373,
+    "scan-throughput": 8655554.391054133,
+    "signature-versions": {
+        "native": "2021-06-23T12:38:25.107366"
+    },
+    "type": "Windows DLL",
+    "worker-version": "2021.3"
+}
